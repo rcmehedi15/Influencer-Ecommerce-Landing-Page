@@ -19,6 +19,9 @@ body {
   justify-content: space-between;
 }
 /* Navbar Section Styles  */
+.left-img-side img{
+  width: 80%;
+}
 .logo,
 .heading-title {
   color: #3a3a3a;
@@ -74,5 +77,65 @@ li a {
   border: 2px solid #bfcbd999;
   margin: 0 80px;
   border-radius: 5px;
-
+}
+/* Popular Collection area */
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px ; /*raw column gap */
+  
+}
+.head-title {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  color: #3a3a3a;
+  margin-bottom: 30px;
+}
+.collection {
+  background-color: #ffffff;
+  width: 329px;
+  height: 476px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+}
+.collection-banner {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.collection-detail {
+  margin: 5px 15px;
+  margin-left: 15px;
+}
+.collection-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+}
+.rating{
+  display: flex;
+  gap: 15px;
+  margin: 10px 0px;
+}
+.fa-star {
+  font-size: 12px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+ 
+  color: #aeaeae;
+}
+.sub-title {
+  color: #787885;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 143%;
 }
