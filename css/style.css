@@ -163,10 +163,23 @@ li a {
 .text-side {
   margin-left: 60px;
 }
-.text-title{
+.text-title {
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
   line-height: 70px;
   color: #0a0826;
+}
+.footer-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 239px;
+  background-color: #0a0826;
+}
+.footer-text{
+  color: #ffffff;
+}
+.social-icon{
+  display: inline;
 }
