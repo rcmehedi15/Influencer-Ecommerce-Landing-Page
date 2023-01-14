@@ -176,10 +176,20 @@ li a {
   align-items: center;
   height: 239px;
   background-color: #0a0826;
+  text-align: center;
 }
 .footer-text{
   color: #ffffff;
 }
-.social-icon{
-  display: inline;
+.footer-title{
+  display: flex;
+  
+}
+.fa-brands{
+  padding: 10px 5px;
+  font-size: 20px;
+}
+.social-icon a{
+  text-decoration: none;
+  color: #ffffff;
 }
